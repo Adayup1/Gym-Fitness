@@ -1,0 +1,181 @@
+*{
+    font-family: "poss";
+    src: url(../font/Poppins/Poppins-Regular.ttf);
+}
+:root{
+   --one-color: #0d6efd;
+   --two-color: #dc3545;
+   --twe-color:#fff ;
+    --for-color: #fd7e14 ;
+}
+nav{
+    background: linear-gradient(to left, var(--one-color),var(--two-color) );
+}
+body{
+    background: linear-gradient(to left,var(--one-color),var(--two-color));
+    overflow-x: hidden;
+}
+.sub-heding{
+    text-align: center;
+    color: var(--for-color);
+    font-size: 2rem;
+}
+.main-heding{
+    text-align: center;
+    color: var(--twe-color);
+    font-size: 3rem;
+}
+.line{
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: var(--for-color);
+    width: 100px ;
+    height: 2px;
+}
+.searive-card{
+    background-color: var(--twe-color);
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.searive-card:hover{
+    transform: scale(1.02);
+}
+.searive-card h5{
+    text-align: center;
+    color: var(--twe-color);
+    padding: 5px;
+}
+.searive-card p{
+    padding:5px;
+    padding-left: 15px;
+    color: var(--twe-color);
+}
+ #cardimg{
+    object-fit: cover;
+    max-height: 520px;
+     width: 100%;
+}
+#header {
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+}
+#header video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    z-index: -2;
+}
+#header .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    background: linear-gradient(to left, var(--one-color),var(--two-color) );
+    mix-blend-mode: overlay;
+    z-index: -1;
+}
+#recommented-card{
+    position: relative;
+    overflow: hidden;
+}
+.recommented{
+    position: absolute;
+    background-color: var(--twe-color);
+    color: #000;
+    width: 200px;
+    font-size: 0.9rem;
+    top: 20px;
+    right: -50px;
+    transform: rotate(30deg);
+}
+#testimonial img {
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.carousel-control-prev{
+    position: absolute;
+    left: -6%;
+}
+.carousel-control-next{
+    position: absolute;
+    right: -6%;
+}
+.carousel-indicators button[type="button"]{
+   height: 10px;
+}
+#news  img{
+    height: 200px ;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border: 3px solid red;
+   
+
+}
+#news .card{
+    transition: 0.3s;
+}
+#news .card:hover{
+    transform: scale(1.02);
+}
+#faq .accordion-button{
+    background: linear-gradient(to right, var(--one-color),var(--two-color) );
+    color: var(--twe-color);
+}
+#content{
+    background-image: url(./../imges/12.01.jpg);
+   width: 100%;
+   height: 450px;
+   opacity: 0.8;
+   background-repeat: no-repeat;
+  background-size: cover;
+background-position:100% 40%;
+ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left:20px;
+}
+#footer ul li{
+    line-height: 38px;
+}
+#footer ul li a:hover{
+    color: var(--for-color);
+
+}
+.linee {
+    background-color: var(--for-color);
+    width: 350px;
+    height: 2px;
+    margin: auto;
+}
+#up{
+    font-size: 50px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: var(--for-color);
+    margin-right: 10px;
+   
+}
+#offcanvassinin{
+ background-color: var(--twe-color);
+}
